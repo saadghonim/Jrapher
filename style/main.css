@@ -352,10 +352,6 @@ html[dir="rtl"] .dropdown-content-lang {
     left: 17px;
 }
 
-html[dir="ltr"] .dropdown-content-lang {
-    right: -111px;
-}
-
 .dropdown-content-lang .anc_lang {
     font-size: 16px;
     font-family: "IBMPlexSans";
@@ -538,7 +534,7 @@ html[dir="ltr"] .dropdown-content-lang::after {
         overflow-y: hidden;
     }
     html[dir="rtl"] .dropdown-content-lang {
-        left: 135%;
+        left: 119%;
     }
     html[dir="ltr"] .dropdown-content-lang {
         left: 0;
@@ -673,7 +669,7 @@ html[dir="ltr"] .dropdown-content-lang::after {
 
 @media(max-width:567px) {
     .header .logo img {
-        width: 95px;
+        width: 85px;
     }
     html[dir="rtl"] .bt_user {
         margin-right: 4px;
@@ -703,6 +699,12 @@ html[dir="ltr"] .dropdown-content-lang::after {
         font-size: 17px;
     }
     .angle_nav {
+        font-size: 14px;
+    }
+    .dropdown-content-lang {
+        min-width: 120px;
+    }
+    .dropbtn-lang {
         font-size: 14px;
     }
 }
