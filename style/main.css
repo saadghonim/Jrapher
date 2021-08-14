@@ -1218,6 +1218,12 @@ html[dir="ltr"] .featyres_div P {
     .featyres_div P {
         text-align: center;
     }
+    html[dir="rtl"] .featyres_div P {
+        padding-right: 0px;
+    }
+    html[dir="ltr"] .featyres_div P {
+        padding-left: 0px;
+    }
 }
 
 
