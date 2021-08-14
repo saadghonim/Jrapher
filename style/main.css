@@ -373,11 +373,11 @@ html[dir="ltr"] .icon_lang {
 }
 
 html[dir="rtl"] .dropdown-content-lang {
-    left: 17px;
+    left: 21px;
 }
 
 html[dir="ltr"] .dropdown-content-lang {
-    left: 17px;
+    left: 30px;
 }
 
 .dropdown-content-lang .anc_lang {
