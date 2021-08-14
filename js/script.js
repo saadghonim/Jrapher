@@ -28,23 +28,18 @@ $(document).ready(function() {
         $(".moboverlay").fadeIn('500');
         $(".bars_icon").addClass("close_");
         $("body").addClass("over");
-
     });
-
 
     $(".moboverlay").click(function() {
         $(".navbar_").removeClass("open_");
         $(".moboverlay").fadeOut('500');
         $(".bars_icon").removeClass("close_");
         $("body").removeClass("over");
-
     });
     $(".fa-times").click(function() {
         $(".navbar_").removeClass("open_");
         $(".moboverlay").fadeOut('500');
         $(".bars_icon").removeClass("close_");
-
-
     });
     $(".dropdown-lang").click(function() {
         $(".dropdown-content-lang").slideToggle(500);
