@@ -1152,8 +1152,8 @@ html[dir="ltr"] .price p {
 }
 
 .icon_f {
-    width: 56px!important;
-    height: 56px!important;
+    width: 56px;
+    height: 56px;
     border-radius: 50%;
     background-color: rgb(172, 213, 209);
     display: flex;
@@ -1161,12 +1161,12 @@ html[dir="ltr"] .price p {
     align-items: center;
 }
 
-html[dir="rtl"] .icon_f {
-    padding-left: 20px;
+html[dir="rtl"] .featyres_div P {
+    padding-right: 20px;
 }
 
-html[dir="ltr"] .icon_f {
-    padding-right: 20px;
+html[dir="ltr"] .featyres_div P {
+    padding-left: 20px;
 }
 
 .icon_f2 {
