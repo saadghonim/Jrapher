@@ -910,7 +910,7 @@ html[dir="ltr"] .drop_menu {
 }
 
 .banner a:hover img {
-    transform: scale(1.03);
+    transform: scale(1.1);
 }
 
 .banner_group a:nth-child(1) {
