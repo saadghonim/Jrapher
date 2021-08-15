@@ -327,6 +327,7 @@ html[dir="ltr"] .lang {
 .lang .icon_lang {
     font-size: 9px!important;
     color: rgb(128, 128, 128);
+    margin-top: 3px;
 }
 
 html[dir="rtl"] .icon_lang {
@@ -547,11 +548,11 @@ html[dir="ltr"] .dropdown-content-lang::after {
 }
 
 html[dir="rtl"] .drop_menu {
-    padding-right: 10px;
+    padding-right: 5px;
 }
 
 html[dir="ltr"] .drop_menu {
-    padding-left: 10px;
+    padding-left: 5px;
 }
 
 .lnr_ {
@@ -783,7 +784,7 @@ html[dir="ltr"] .drop_menu {
         font-size: 17px;
     }
     .angle_nav {
-        font-size: 10px;
+        font-size: 9px;
     }
     .dropdown-content-lang {
         min-width: 120px;
