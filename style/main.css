@@ -888,6 +888,61 @@ html[dir="ltr"] .drop_menu {
     overflow: hidden;
 }
 
+.banner_single {
+    position: relative;
+}
+
+a.anc_hover_ {
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+
+.anc_hover_::before {
+    background: rgba(255, 255, 255, 0.5);
+    bottom: 0;
+    content: "";
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all .8s ease 0s;
+    z-index: 99;
+}
+
+.anc_hover_::after {
+    background: rgba(255, 255, 255, 0.5);
+    bottom: 0;
+    content: "";
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0;
+    transition: all .8s ease 0s;
+    z-index: 99;
+}
+
+.anc_hover_:hover::after {
+    bottom: 50%;
+    opacity: 1;
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    -webkit-opacity: 1;
+    top: 50%;
+}
+
+.anc_hover_:hover::before {
+    left: 50%;
+    opacity: 1;
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    -webkit-opacity: 1;
+    right: 50%;
+}
+
 .anc_banner {
     text-align: center;
     display: inline-block;
