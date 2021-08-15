@@ -324,7 +324,7 @@ html[dir="ltr"] .lang {
 }
 
 .lang .icon_lang {
-    font-size: 11px;
+    font-size: 9px!important;
     color: rgb(128, 128, 128);
 }
 
