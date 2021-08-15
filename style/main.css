@@ -177,7 +177,7 @@ html[dir="ltr"] .anc_nav {
     right: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.3);
-    z-index: 99999;
+    z-index: 99;
     overflow: hidden;
 }
 
@@ -914,7 +914,7 @@ a.anc_hover_ {
     right: 0;
     top: 0;
     transition: all .8s ease 0s;
-    z-index: 99;
+    z-index: 9;
 }
 
 .anc_hover_::after {
@@ -928,7 +928,7 @@ a.anc_hover_ {
     top: 0;
     padding: 0;
     transition: all .8s ease 0s;
-    z-index: 99;
+    z-index: 9;
 }
 
 .anc_hover_:hover::after {
