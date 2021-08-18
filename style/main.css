@@ -1490,6 +1490,15 @@ html[dir="ltr"] .copyright .tasawk {
     .footer_ul li {
         margin-bottom: 10px;
     }
+    .footer .logo {
+        text-align: center;
+    }
+    html[dir="rtl"] .copyright span {
+        text-align: center;
+    }
+    html[dir="ltr"] .copyright span {
+        text-align: center;
+    }
 }
 
 @media(max-width:767px) {
