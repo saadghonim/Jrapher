@@ -149,7 +149,7 @@ header {
 }
 
 .anc_nav {
-    font-size: 18px;
+    font-size: 16px;
     font-family: "IBM";
     font-weight: 400px;
     color: rgb(95, 95, 95);
@@ -335,7 +335,7 @@ html[dir="ltr"] .lang {
 .lang .icon_lang {
     font-size: 7px!important;
     color: rgb(128, 128, 128);
-    margin-top: 3px;
+    margin-top: 1px;
 }
 
 html[dir="rtl"] .icon_lang {
@@ -808,6 +808,9 @@ html[dir="ltr"] .dropdown-content-lang::after {
     .drop_user {
         top: 63px;
         padding: 15px;
+    }
+    .drop_menu {
+        padding: 8px
     }
 }
 
