@@ -23,7 +23,7 @@
 }
 
 @font-face {
-    font-family: 'IBM Text';
+    font-family: 'IBM';
     src: url('../fonts/IBM/IBMPlexArabic-Text.woff2') format('woff2'), url('../fonts/IBM/IBMPlexArabic-Text.woff') format('woff'), url('../fonts/IBM/IBMPlexSansArabic-Text.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
@@ -367,7 +367,6 @@ html[dir="ltr"] .icon_lang {
     visibility: hidden;
     position: absolute;
     min-width: 140px;
-    height: 85px;
     background-color: #ffff;
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
@@ -380,6 +379,7 @@ html[dir="ltr"] .icon_lang {
     align-items: center;
     justify-content: center;
     border-top: 2px solid rgb(70, 121, 168);
+    padding: 15px;
 }
 
 html[dir="rtl"] .dropdown-content-lang {
@@ -455,7 +455,7 @@ html[dir="ltr"] .dropdown-content-lang::after {
 .drop_menu {
     visibility: hidden;
     opacity: 0;
-    min-width: 160px;
+    min-width: 145px;
     height: auto;
     position: absolute;
     z-index: 99;
@@ -465,17 +465,23 @@ html[dir="ltr"] .dropdown-content-lang::after {
     transition: .5s;
     top: 30px;
     transform: translateX(-50%);
-    left: 50%;
     text-align: center;
     padding: 20px 0;
     border-top: 2px solid rgb(70, 121, 168);
-    ;
+}
+
+html[dir="rtl"] .drop_menu {
+    left: 70%;
+}
+
+html[dir="ltr"] .drop_menu {
+    left: 36%;
 }
 
 .drop_user {
     visibility: hidden;
     opacity: 0;
-    min-width: 160px;
+    min-width: 140px;
     height: auto;
     position: absolute;
     z-index: 99;
@@ -485,11 +491,15 @@ html[dir="ltr"] .dropdown-content-lang::after {
     transition: .5s;
     top: 85px;
     text-align: center;
-    padding: 20px 0;
+    padding: 15px;
     border-top: 2px solid rgb(70, 121, 168);
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.drop_user .anc_user:first-child {
+    margin-bottom: 5px;
 }
 
 .drop_user::after {
@@ -531,7 +541,7 @@ html[dir="ltr"] .dropdown-content-lang::after {
 
 .anc_menu,
 .anc_user {
-    font-size: 17px;
+    font-size: 16px;
     font-family: "IBM";
     color: rgb(128, 128, 128);
     font-weight: 300;
@@ -733,9 +743,11 @@ html[dir="ltr"] .dropdown-content-lang::after {
     }
     html[dir="rtl"] .drop_menu {
         text-align: right;
+        left: 50%;
     }
     html[dir="ltr"] .drop_menu {
         text-align: left;
+        left: 50%;
     }
     .drop_menu::after {
         border: none;
@@ -882,7 +894,7 @@ html[dir="ltr"] .dropdown-content-lang::after {
 /* ****************start banner********** */
 
 .banner {
-    margin-bottom: 160px;
+    margin-bottom: 100px;
 }
 
 .banner_group a {
@@ -1081,7 +1093,7 @@ a.anc_hover_ {
 
 .new {
     background-color: rgb(250, 250, 250);
-    padding: 70px 0 70px 0;
+    padding: 70px 0 90px 0;
 }
 
 .h4_ {
@@ -1096,7 +1108,7 @@ a.anc_hover_ {
 
 .anc_img {
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 10x;
     border: 1px solid rgb(235, 235, 235);
     overflow: hidden;
 }
@@ -1117,9 +1129,9 @@ a.anc_hover_ {
     font-size: 16px;
     font-family: "IBM";
     color: rgb(95, 95, 95);
-    font-weight: 300;
+    font-weight: 400;
     transition: .5s;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .anc_new:hover {
@@ -1156,7 +1168,7 @@ html[dir="ltr"] .price p {
 
 .special_off {
     background-color: transparent;
-    margin-bottom: 90px;
+    margin-bottom: 70px;
 }
 
 .new .owl-nav {
@@ -1336,14 +1348,18 @@ html[dir="ltr"] .featyres_div P {
 
 footer {
     background-color: rgb(70, 121, 168);
-    padding: 50px 0 15px 0;
+    padding: 25px 0 15px 0;
 }
 
 .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+.footer .logo {
+    width: 245px;
 }
 
 .nav_footer {
@@ -1430,7 +1446,16 @@ html[dir="ltr"] .anc_social {
     color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
+    width: 238px;
     text-transform: capitalize;
+}
+
+html[dir="rtl"] .copyright span {
+    text-align: left;
+}
+
+html[dir="ltr"] .copyright span {
+    text-align: right;
 }
 
 .copyright span a {
