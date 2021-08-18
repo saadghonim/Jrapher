@@ -165,7 +165,7 @@ header {
 }
 
 .angle_nav {
-    font-size: 10px;
+    font-size: s;
 }
 
 html[dir="rtl"] .anc_nav {
@@ -1431,6 +1431,19 @@ html[dir="ltr"] .anc_social {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.102);
+}
+
+.Shape_745 {
+    background-color: rgba(255, 255, 255, 0.102);
+    opacity: 0.149;
+    position: absolute;
+    left: 95px;
+    top: 3330px;
+    width: 1410px;
+    height: 1px;
+    z-index: 6;
 }
 
 .copyright p {
