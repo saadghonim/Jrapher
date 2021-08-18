@@ -1,3 +1,7 @@
+$(window).load(function() {
+    $(".preloader-sa").fadeOut(1000);
+});
+
 $(document).ready(function() {
 
     $('.slider .owl-carousel').owlCarousel({
